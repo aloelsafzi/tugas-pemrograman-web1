@@ -5,20 +5,96 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tugas Pertemuan 5</title>
+
+    <!-- link css -->
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <pre>
-<hr color="blue" size=3 width=50% align="left">
-<font size=4 color="red">
-<a href="index.html">Home</a> | <a href="profile.html">Profile</a> | <a href="about.html">About</a> | <a href="galery.html">Gallery</a> | <a href="kontak.html">Kontak</a>
-</font>
-<hr color="blue" size=3 width=50% align="left">
-<font size=3>Assalammualaikum.Wr.Wb.
-Apakabar semua. Salam kenal ini adalah web perdanaku. Web ini berisi informasi tentang
-kegemaranku. <br>Semoga web ini dapat menginspirasi Anda pada waktu liburan. <a href="http://www.google.com">google</a> Silakan hubungi saya jika ada yang ingin didiskusikan  <a href="mailto:endarnirmala.gmail.com">email</a>
-</font>
-</pre>
+    <nav>
+        <div class="nav_bar">
+            <a class="nav_link active" href="/">Home</a>
+            <a class="nav_link" href="/pages/about.html">About</a>
+            <a class="nav_link" href="/pages/kontak.html">Kontak</a>
+            <a class="nav_link" href="/pages/profile.html">Profile</a>
+            <a class="nav_link" href="/pages/galery.html">Galery</a>
+        </div>
+    </nav>
+
+    <section class="container">
+
+        <div class="berita">
+            <h4>Berita terkini : </h4>
+            <marquee> Info terkini : Aloel ganteng</marquee>
+        </div>
+
+        <h2 class="text-center m-2">Daftar Artikel</h2>
+        <div class="list_artikel">
+            <div class="card">
+                <h3 class="text-center">Membuat Desain Database</h3>
+                <hr color="black" size="1">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                <i>
+                    Reprehenderit modi obcaecati voluptates
+                    mollitia,
+                </i>
+                voluptatem temporibus id vitae fugiat voluptatum ullam doloribus nulla sit fuga, <b>eius laboriosam</b>
+                <u>
+                    quibusdam
+                    tempore dolore laborum!
+                </u>
+                <br><br>
+                <a class="link" href="#">lanjut baca</a>
+            </div>
+            <div class="card">
+                <h3 class="text-center">Membuat Aplikasi Web</h3>
+                <hr color="black" size="1">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit modi obcaecati voluptates
+                mollitia,
+                voluptatem temporibus id vitae fugiat voluptatum ullam doloribus nulla sit fuga, eius laboriosam
+                quibusdam
+                tempore dolore laborum!
+                <br><br>
+                <a class="link" href="#">lanjut baca</a>
+            </div>
+            <div class="card">
+                <h3 class="text-center">Membuat Web app Toko Online</h3>
+                <hr color="black" size="1">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit modi obcaecati voluptates
+                mollitia,
+                <del>
+                    temporibus id vitae fugiat voluptatum ullam doloribus nulla sit fuga, eius laboriosam
+                    quibusdam
+                </del>
+                tempore dolore laborum!
+                <br><br>
+                <a class="link" href="#">lanjut baca</a>
+            </div>
+        </div>
+        <h2 class="text-center m-2">Daftar Video</h2>
+        <div class="list_video">
+            <div class="card_video">
+                <h3 class="text-center">Video Programming C++</h3>
+                <hr color="black" size="1">
+                <iframe src="https://www.youtube.com/embed/YQknNEGXoGM" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+
+            <div class="card_video">
+                <h3 class="text-center">My Vlog</h3>
+                <hr color="black" size="1">
+                <iframe src="https://www.youtube.com/embed/PJk3gTHQXxo" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="text-center m-2">
+        Create by : aloelsafzi (Samsul Fauzi)
+    </footer>
 </body>
 
 </html>
